@@ -43,3 +43,6 @@ select * from addressbooktable
 
 /*UC6*/
 select * from addressbooktable where City='Nagpur' or State='maharashtra'
+
+/*UC7*/
+select count(*) as CityCount,City from addressbooktable group by City;
