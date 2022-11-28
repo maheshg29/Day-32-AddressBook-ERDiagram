@@ -50,3 +50,16 @@ select count(*) as CityCount,City from addressbooktable group by City;
 /*UC8*/
 select * from addressbooktable order by FirstName asc;
 
+
+/*UC9*/
+alter table addressbooktable
+add type varchar(20);
+alter table addressbooktable
+add addresbookname varchar(50);
+
+update addressbooktable set type='Friends' where City='Nagpur';
+update addressbooktable set type='office' where City='Mumbai';
+update addressbooktable set type='relative' where City='Nashik';
+
+update addressbooktable set addresbookname ='Normal' where FirstName='akshay';
+select * from addressbooktable
