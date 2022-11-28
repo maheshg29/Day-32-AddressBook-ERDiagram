@@ -23,3 +23,7 @@ values
 ('akshay','b','12 silp','mumbai','maharashtra',424005,'9812344448','gagag123@gmail.com');
 
 select * from addressbooktable;
+
+/*UC4*/
+update addressbooktable set City='Mumbai' where FirstName = 'mahesh';
+select * from addressbooktable;
