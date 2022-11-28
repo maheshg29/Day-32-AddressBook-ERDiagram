@@ -27,3 +27,7 @@ select * from addressbooktable;
 /*UC4*/
 update addressbooktable set City='Mumbai' where FirstName = 'mahesh';
 select * from addressbooktable;
+
+/*UC5*/
+delete from addressbooktable where FirstName= 'mahesh';
+select * from addressbooktable
