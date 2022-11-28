@@ -31,3 +31,15 @@ select * from addressbooktable;
 /*UC5*/
 delete from addressbooktable where FirstName= 'mahesh';
 select * from addressbooktable
+
+/*info add */
+insert into addressbooktable(FirstName,LastNames,Address,City,State,Zip,PhoneNumber,Email)
+values
+('mahesh','g','9b nagar','nashik','maharashtra',424008,'9812345678','gagag@gmail.com'),
+('akshay','b','10 G nagar','mumbai','rajasthan',424010,'7788552211','jjj@gmail.com'),
+('rajesj','S','12 nagar','Nagpur','maharashtra',400118,'9912345678','kaakgag@gmail.com');
+
+select * from addressbooktable
+
+/*UC6*/
+select * from addressbooktable where City='Nagpur' or State='maharashtra'
