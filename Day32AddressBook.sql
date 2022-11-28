@@ -14,3 +14,12 @@ PhoneNumber varchar(15),
 Email varchar(100)
 )
 
+/*UC3*/
+insert into addressbooktable(FirstName,LastNames,Address,City,State,Zip,PhoneNumber,Email)
+values
+('mahesh','g','9b nagar','nashik','maharashtra',424008,'9812345678','gagag@gmail.com');
+insert into addressbooktable(FirstName,LastNames,Address,City,State,Zip,PhoneNumber,Email)
+values
+('akshay','b','12 silp','mumbai','maharashtra',424005,'9812344448','gagag123@gmail.com');
+
+select * from addressbooktable;
