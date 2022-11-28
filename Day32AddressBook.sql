@@ -68,3 +68,9 @@ select * from addressbooktable
 
 /*UC10*/
 select type,count(type) as NumberofContactPerson from addressbooktable group by type;
+
+/*UC11*/
+insert into addressbooktable(FirstName,LastNames,Address,City,State,Zip,PhoneNumber,Email,type)
+values
+('narendra','modi','newdelhi','delhi','NCR',424008,'9812345678','gagag@gamil.com','relative');
+select * from addressbooktable
