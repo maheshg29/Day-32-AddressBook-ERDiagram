@@ -63,3 +63,8 @@ update addressbooktable set type='relative' where City='Nashik';
 
 update addressbooktable set addresbookname ='Normal' where FirstName='akshay';
 select * from addressbooktable
+
+
+
+/*UC10*/
+select type,count(type) as NumberofContactPerson from addressbooktable group by type;
